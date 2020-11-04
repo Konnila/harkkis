@@ -44,3 +44,10 @@ Havainnollistan vielä tietokantakaavion sekä sisällön tässä vaiheessa. Osa
 
 ![alt text](https://github.com/Konnila/harkkis/blob/main/diagram_db.PNG "Db Diagram")
 
+Ja sisällöt alla:
+
+![alt text](https://github.com/Konnila/harkkis/blob/main/analysis_table_train.PNG "")
+![alt text](https://github.com/Konnila/harkkis/blob/main/analysis_table_train_stop.PNG "")
+![alt text](https://github.com/Konnila/harkkis/blob/main/analysis_train_train_stop.PNG "")
+
+
