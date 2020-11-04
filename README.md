@@ -1,6 +1,7 @@
 # Harjoitustehtävän edistymisen kuvaus
 
 ## Alku
+En mainitse tehtävänantoa tässä suoraan, ettei se vuoda :).
 
 Aloitan tutustumalla materiaaliin. Ensiksi kävin katsomassa että kyseinen juna tosiaan lähtee ensi keskiviikkona ja näyttää olevan.
 Arvioitu saapumisaika VR:n sivujen mukaan 15:58 (paljon paremmat nämä uudet sivut! :).
@@ -21,7 +22,7 @@ Hieman myöhemmin muistin myös lisätä difference_in_time kentän joka antaa s
 
 ## Kun tehtävän taulut on luotu
 
-Päätän, että otan otoskooksi kymmenen matkaa. Ei mieletön määrä missään nimessä, mutta saadaan suhteellisen hyvä käsitys siitä kuinka aikataulussa tämä kyseinen IC27 juna on. Sitä paitsi jos haluaisin enemmän harjoittaisin hieman datahaun automaatiota, mikä ei aikarajoituksen takia liene viisasta juuri nyt.
+Päätän, että otan otoskooksi kymmenen matkaa. Ei mieletön määrä missään nimessä, mutta saadaan suhteellisen hyvä käsitys siitä kuinka aikataulussa tämä kyseinen IC27 juna on. Sitä paitsi jos haluaisin enemmän harjoittaisin hieman datahaun automaatiota, mikä ei aikarajoituksen takia liene viisasta juuri nyt. Painotan päivävalinnoissani edellisiä keskiviikkoja, koska tavoitepäiväkin on keskiviikko.
 Nyt pääsen tietysti lisäämään dataa. 
 
 Lisään ensin junia.
@@ -50,4 +51,21 @@ Ja sisällöt alla:
 ![alt text](https://github.com/Konnila/harkkis/blob/main/analysis_table_train_stop.PNG "")
 ![alt text](https://github.com/Konnila/harkkis/blob/main/analysis_train_train_stop.PNG "")
 
+# Analyysi
+
+Nyt voin tehdä yksinkertaista analyysiä. Päätän tutkia kymmenen matkan keskimääräistä myöhästymistä minuuteissa (negatiivinen on etuajassa, positiivinen myöhässä). Sekä otokseni isoimman myöhästymisen että suurimman etuajan (jos sellaisia on).
+
+Tutkin asiaa seuraavalla kyselyllä
+
+![alt text](https://github.com/Konnila/harkkis/blob/main/SQL_analysis3.PNG "")
+
+Tällä näkisimme kaikkien tietokannan junien keskimääräinen myöhästyneisyys, isoimman myöhästymisen että suurimman etuajan. Meillä on kannassa kuitenkin vain IC27 joten näemme vain sen tiedot kuvan vasemmassa alalaidassa. round-kenttä (*olisin voinut palautetun taulun kolumnit paremmin AS statementillä*) tässä tapauksessa kertoo meille että juna on keskimäärin myöhässä hieman yli puoli minuuttia. Otoksessani suurin myöhästyminen oli viisi minuuttia ja juna oli parhaimmillaan etuajassa kolme minuuttia.
+
+VR:n sivujen mukaan arvioitu saapumisaika kyseisellä junalla kyseisenä päivänä on 15:58. Keskimäärin juna on myöhässä alle minuutin, joten on hyvin todennäköistä että Jaana ehtii iltamenoonsa. Olisi mielestäni myös perusteltua ottaa aikaisempi juna, sillä otoksessa huomataan että juna on kerran ollut viisi minuuttia myöhässä. Itseasiassa kahdella matkalla kymmenestä (otokseni) Jaana ei olisi ehtinyt ajoissa. Suosittelisin tämän takia Jaanan ottavan aikaisemman junan, jos ajoissa oleminen on erityisen oleellista :).
+Huomautuksena kuitenkin että otoskoko on hyvin pieni.
+
+# Post-Analyysi
+
+Lisäsin tämän kohdan kun jäin hieman miettimään ongelmaa lopuksi uudestaan. Oikeastaan tehtävässä ei pitäisi olla kiinnostunut ollenkaan tapauksista joissa ollaan etuajassa,
+vaan kiinnittää huomio pelkästään tilanteisiin joissa ollaan myöhässä. Tällöin myöhästymisistä saataisiin keskihajonta, ja tieto siitä yhdistettynä myöhästymistodennäköisyyteen saisimme älykkäämmän analyysin siitä mitä Jaanan kannattaisi tehdä :)
 
