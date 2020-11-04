@@ -69,3 +69,8 @@ Huomautuksena kuitenkin että otoskoko on hyvin pieni.
 Lisäsin tämän kohdan kun jäin hieman miettimään ongelmaa lopuksi uudestaan. Oikeastaan tehtävässä ei pitäisi olla kiinnostunut ollenkaan tapauksista joissa ollaan etuajassa,
 vaan kiinnittää huomio pelkästään tilanteisiin joissa ollaan myöhässä. Tällöin myöhästymisistä saataisiin keskihajonta, ja tieto siitä yhdistettynä myöhästymistodennäköisyyteen saisimme älykkäämmän analyysin siitä mitä Jaanan kannattaisi tehdä :)
 
+# Junarajapinta
+
+Osoitteesta https://still-lowlands-49832.herokuapp.com/api/<date>/<trainNumber> voi käydä kysymässä junaa samalla tavalla kuin digitrafficista. Piti tehdä herokuun tili, ja katsoa miten clojurea deployataan herokuun joten en ehtinyt saada rajapintaa täysin vastaamaan tehtävänantoa, joten nyt tämä replikoi toiminnallisuutta joka löytyy digitrafficista. Palvelimeltani HTTP clientti käy siis hakemassa noita date ja trainnumber parametreja vastaan samat tiedot kuin digitraffic sivustolta. Ensi keskiviikko olisi täten https://still-lowlands-49832.herokuapp.com/api/2020-11-11/27
+
+
