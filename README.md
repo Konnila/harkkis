@@ -27,9 +27,9 @@ Nyt pääsen tietysti lisäämään dataa.
 Lisään ensin junia.
 ![alt text](https://github.com/Konnila/harkkis/blob/main/insert_train.PNG "Insert trains")
 
-**HUOM:** Jälkikäteen lisäsin train-tauluun myös tiedon minkä päivän juna on kyseessä. Tajusin että tein huolimattomuusvirheen ja lisäsin train-tauluun siis myös kolumnin "departure_date" joka on date-tyyppiä.
+**HUOM:** Jälkikäteen lisäsin train-tauluun myös tiedon minkä päivän juna on kyseessä. Tajusin että tein huolimattomuusvirheen, tässähän voi olla nyt vain yksi juna per kaikki päivät.Siksi lisäsin train-tauluun siis myös kolumnin "departure_date" joka on date-tyyppiä. Nyt yksi rivi tässä taulussa tarkoittaa päivänä X tietyn junan lähtöä.
 
-Seuraavaksi lisään pysäkkejä. Ideana minulla oli siis että voi lisätä rivejä joissa on sekä "departure" että "arrival" tieto, samalla tavalla kuin rajapinnan datassa. Tässä tehtävässä en ole kuitenkaan kiinnostunut kuin "Arrival" tyyppisistä tiedoista.
+Seuraavaksi lisään pysäkkejä. Oikeasti en tässä tehtävässä ole kiinnostunut lopulta kuin "TPE" pysäkistä, mutta lisäsin alussa varmuuden varalta kaikki pysäkit joissa pysähdytään matkan varrella.
 
 ![alt text](https://github.com/Konnila/harkkis/blob/main/insert_stops.PNG "Insert stops")
 
