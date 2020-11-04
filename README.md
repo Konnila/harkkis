@@ -59,7 +59,7 @@ Tutkin asiaa seuraavalla kyselyllä
 
 ![alt text](https://github.com/Konnila/harkkis/blob/main/SQL_analysis3.PNG "")
 
-Tällä näkisimme kaikkien tietokannan junien keskimääräinen myöhästyneisyys, isoimman myöhästymisen että suurimman etuajan. Meillä on kannassa kuitenkin vain IC27 joten näemme vain sen tiedot kuvan vasemmassa alalaidassa. round-kenttä (*olisin voinut palautetun taulun kolumnit paremmin AS statementillä*) tässä tapauksessa kertoo meille että juna on keskimäärin myöhässä hieman yli puoli minuuttia. Otoksessani suurin myöhästyminen oli viisi minuuttia ja juna oli parhaimmillaan etuajassa kolme minuuttia.
+Tällä näkisimme kaikkien tietokannan junien keskimääräinen myöhästyneisyys, isoimman myöhästymisen että suurimman etuajan. Meillä on kannassa kuitenkin vain IC27 joten näemme vain sen tiedot kuvan vasemmassa alalaidassa. round-kenttä (*olisin voinut nimetä palautetun taulun kolumnit paremmin AS statementillä*) tässä tapauksessa kertoo meille että juna on keskimäärin myöhässä hieman yli puoli minuuttia. Otoksessani suurin myöhästyminen oli viisi minuuttia ja juna oli parhaimmillaan etuajassa kolme minuuttia.
 
 VR:n sivujen mukaan arvioitu saapumisaika kyseisellä junalla kyseisenä päivänä on 15:58. Keskimäärin juna on myöhässä alle minuutin, joten on hyvin todennäköistä että Jaana ehtii iltamenoonsa. Olisi mielestäni myös perusteltua ottaa aikaisempi juna, sillä otoksessa huomataan että juna on kerran ollut viisi minuuttia myöhässä. Itseasiassa kahdella matkalla kymmenestä (otokseni) Jaana ei olisi ehtinyt ajoissa. Suosittelisin tämän takia Jaanan ottavan aikaisemman junan, jos ajoissa oleminen on erityisen oleellista :).
 Huomautuksena kuitenkin että otoskoko on hyvin pieni.
