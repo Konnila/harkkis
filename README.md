@@ -33,5 +33,9 @@ Seuraavaksi lisään pysäkkejä. Oikeasti en tässä tehtävässä ole kiinnost
 
 ![alt text](https://github.com/Konnila/harkkis/blob/main/insert_stops.PNG "Insert stops")
 
+Ja lopuksi lisätään tehtävän kannalta mielenkiintoisimmat pysäkit tampereella train_train_stop -tauluun.
+Alla esimerkki-insert. Näitä tuli yhteensä kymmenen, eli kymmenen saapumishetkeä Tampereelle. 
+
+![alt text](https://github.com/Konnila/harkkis/blob/main/insert_train_train_stops.PNG "Insert stops")
 
 
