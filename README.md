@@ -38,4 +38,9 @@ Alla esimerkki-insert. Näitä tuli yhteensä kymmenen, eli kymmenen saapumishet
 
 ![alt text](https://github.com/Konnila/harkkis/blob/main/insert_train_train_stops.PNG "Insert stops")
 
+# Tietokantarakenne ja sisältö
+
+Havainnollistan vielä tietokantakaavion sekä sisällön tässä vaiheessa. Osassa kuvia oli vielä jotain puutteita siinä vaiheessa kun ne tein, joten tässä lopullinen versio tietokannasta.
+
+
 
