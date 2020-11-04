@@ -71,6 +71,6 @@ vaan kiinnittää huomio pelkästään tilanteisiin joissa ollaan myöhässä. T
 
 # Junarajapinta
 
-Osoitteesta https://still-lowlands-49832.herokuapp.com/api/<date>/<trainNumber> voi käydä kysymässä junaa samalla tavalla kuin digitrafficista. Piti tehdä herokuun tili, ja katsoa miten clojurea deployataan herokuun joten en ehtinyt saada rajapintaa täysin vastaamaan tehtävänantoa, joten nyt tämä replikoi toiminnallisuutta joka löytyy digitrafficista. Palvelimeltani HTTP clientti käy siis hakemassa noita date ja trainnumber parametreja vastaan samat tiedot kuin digitraffic sivustolta. Ensi keskiviikko olisi täten https://still-lowlands-49832.herokuapp.com/api/2020-11-11/27
+Osoitteesta https://still-lowlands-49832.herokuapp.com/api/DATE/TRAIN_NUMBER voi käydä kysymässä junaa samalla tavalla kuin digitrafficista. Piti tehdä herokuun tili, ja katsoa miten clojurea deployataan herokuun joten en ehtinyt saada rajapintaa täysin vastaamaan tehtävänantoa, joten nyt tämä replikoi toiminnallisuutta joka löytyy digitrafficista. Palvelimeltani HTTP clientti käy siis hakemassa noita date ja trainnumber parametreja vastaan samat tiedot kuin digitraffic sivustolta. Ensi keskiviikko olisi täten https://still-lowlands-49832.herokuapp.com/api/2020-11-11/27
 
 
