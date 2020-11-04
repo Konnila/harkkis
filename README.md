@@ -42,5 +42,5 @@ Alla esimerkki-insert. Näitä tuli yhteensä kymmenen, eli kymmenen saapumishet
 
 Havainnollistan vielä tietokantakaavion sekä sisällön tässä vaiheessa. Osassa kuvia oli vielä jotain puutteita siinä vaiheessa kun ne tein, joten tässä lopullinen versio tietokannasta.
 
-
+![alt text](https://github.com/Konnila/harkkis/blob/main/diagram_db.PNG "Db Diagram")
 
