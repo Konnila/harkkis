@@ -45,10 +45,14 @@ Havainnollistan vielä tietokantakaavion sekä sisällön tässä vaiheessa. Osa
 
 ![alt text](https://github.com/Konnila/harkkis/blob/main/diagram_db.PNG "Db Diagram")
 
-Ja sisällöt alla:
 
+train-taulun sisältö on seuraavanlainen:
 ![alt text](https://github.com/Konnila/harkkis/blob/main/analysis_table_train.PNG "")
+
+train_stop-taulun sisältö on seuraavanlainen:
 ![alt text](https://github.com/Konnila/harkkis/blob/main/analysis_table_train_stop.PNG "")
+
+train_train_stop liitostaulun sisältö sen sijaan on seuraava:
 ![alt text](https://github.com/Konnila/harkkis/blob/main/analysis_train_train_stop.PNG "")
 
 # Analyysi
